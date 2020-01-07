@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import '@/utils/register-vant.js'
 
 Vue.use(VueRouter)
 
