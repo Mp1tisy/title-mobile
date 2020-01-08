@@ -6,6 +6,7 @@ import './utils/register-vant'
 import './styles/index.less'
 import 'normalize.css'
 import 'amfe-flexible'
+import './utils/validation'
 
 Vue.config.productionTip = false
 
