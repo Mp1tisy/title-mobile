@@ -5,7 +5,7 @@ const request = axios.create({
   baseURL: 'http://ttapi.research.itcast.cn/'
 })
 
-request.defaults.transformRequest = [
+request.defaults.transformResponse = [
   function (data) {
     try {
       return jsonbigint.parse(data)
