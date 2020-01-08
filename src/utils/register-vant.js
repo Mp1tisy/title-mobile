@@ -1,4 +1,4 @@
 import Vue from 'vue'
-import { Button, Icon } from 'vant'
+import { Button, Icon, NavBar, Field } from 'vant'
 
-Vue.use(Button).use(Icon)
+Vue.use(Button).use(Icon).use(NavBar).use(Field)
